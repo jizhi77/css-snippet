@@ -41,10 +41,6 @@
 
 <style lang="less" scoped>
     .page-home-wrap {
-        .cp-spinner, .cp-skeleton:before, .cp-skeleton:after {
-            width: 20px;
-            height: 20px;
-        }
 
         .demo-home {
             box-sizing: border-box;
@@ -52,74 +48,77 @@
             min-height: 100vh;
             padding: 20px 20px 20px;
             background: #fff;
+
+            .demo-home__title, .demo-home__desc {
+                padding-left: 16px;
+                font-weight: normal;
+                line-height: 1;
+                user-select: none;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .demo-home__title {
+                margin: 0 0 16px;
+                font-size: 32px;
+
+                img {
+                    width: 32px;
+                }
+            }
+
+            .home__title {
+                span {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+
+            .demo-home__desc {
+                margin: 0 0 40px;
+                color: rgba(69, 90, 100, 0.6);
+                font-size: 14px;
+            }
+
+            .demo-home-nav__title {
+                margin: 24px 0 8px 16px;
+                color: rgba(69, 90, 100, 0.6);
+                font-size: 14px;
+            }
+
+
+            .demo-home-nav__block {
+                position: relative;
+                display: flex;
+                margin: 0 0 12px;
+                padding-left: 20px;
+                color: #323233;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 40px;
+                background: #f7f8fa;
+                border-radius: 99px;
+                transition: background 0.3s;
+            }
+
+            .demo-home-nav__icon {
+                position: absolute;
+                top: 50%;
+                right: 16px;
+                width: 16px;
+                height: 16px;
+                margin-top: -8px;
+            }
         }
 
-        .demo-home__title, .demo-home__desc {
-            padding-left: 16px;
-            font-weight: normal;
-            line-height: 1;
-            -webkit-user-select: none;
-            user-select: none;
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .demo-home__title {
-            margin: 0 0 16px;
-            font-size: 32px;
-        }
-
-        .home__title span {
-            display: inline-block;
-            vertical-align: middle;
-        }
-
-        .demo-home__title img {
-            width: 32px;
-        }
-
-        .demo-home__desc {
-            margin: 0 0 40px;
-            color: rgba(69, 90, 100, 0.6);
-            font-size: 14px;
-        }
-
-
-        .demo-home-nav__title {
-            margin: 24px 0 8px 16px;
-            color: rgba(69, 90, 100, 0.6);
-            font-size: 14px;
-        }
-
-
-        .demo-home-nav__block {
-            position: relative;
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: flex;
-            margin: 0 0 12px;
-            padding-left: 20px;
-            color: #323233;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 40px;
-            background: #f7f8fa;
-            border-radius: 99px;
-            -webkit-transition: background 0.3s;
-            transition: background 0.3s;
-        }
-
-        .demo-home-nav__icon {
-            position: absolute;
-            top: 50%;
-            right: 16px;
-            width: 16px;
-            height: 16px;
-            margin-top: -8px;
-        }
 
         a {
             text-decoration: none;
+        }
+
+        .cp-spinner, .cp-skeleton:before, .cp-skeleton:after {
+            width: 20px;
+            height: 20px;
         }
     }
 </style>
