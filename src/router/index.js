@@ -26,7 +26,7 @@ const routes = [
             {
                 path: 'ball-beat',
                 name: 'LoaderBallBeat',
-                component: () => import(/* */ "../views/loaders/ball-beat.vue")
+                component: () => import(/* */ "../views/loaders/modules/ball-beat.vue")
             }
         ],
     }

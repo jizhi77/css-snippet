@@ -2,7 +2,7 @@
     <div class="view-loaders-index-wrap">
         <div class="demo-home">
             <h1 class="demo-home__title">
-                <span>Loader Demo</span>
+                <span>CSS Loader</span>
                 <div class="cp-spinner cp-skeleton"></div>
             </h1>
             <h2 class="demo-home__desc">

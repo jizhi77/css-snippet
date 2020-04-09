@@ -5,7 +5,6 @@ module.exports = {
     outputDir: 'docs',
     lintOnSave: false,
     chainWebpack: config => {
-        console.log(config)
         config.resolve.alias
             .set('@', path.resolve(__dirname, './src'))
     }
