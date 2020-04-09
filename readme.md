@@ -1,4 +1,4 @@
-# css-snippet
+# CSS-Snippet
 
 > 常见场景的 CSS 代码片段收集
 
