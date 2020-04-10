@@ -1,0 +1,55 @@
+<template>
+    <div class="loader-sk-three-bounce">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+</template>
+
+<style lang="less" scoped>
+    .loader-sk-three-bounce {
+        .sk-three-bounce {
+            margin: 40px auto;
+            width: 80px;
+            text-align: center;
+        }
+
+        .sk-three-bounce .sk-child {
+            width: 20px;
+            height: 20px;
+            background-color: #ffffff;
+            border-radius: 100%;
+            display: inline-block;
+            -webkit-animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+            animation: sk-three-bounce 1.4s ease-in-out 0s infinite both;
+        }
+
+        .sk-three-bounce .sk-bounce1 {
+
+            animation-delay: -0.32s;
+        }
+
+        .sk-three-bounce .sk-bounce2 {
+
+            animation-delay: -0.16s;
+        }
+
+        @keyframes sk-three-bounce {
+
+            0%,
+            80%,
+            100% {
+
+                transform: scale(0);
+            }
+
+            40% {
+
+                transform: scale(1);
+            }
+        }
+
+    }
+</style>
