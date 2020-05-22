@@ -1,6 +1,6 @@
 <template>
     <div class="view-loaders-index-wrap">
-        <van-grid :column-num="2" square clickable :border="true">
+        <van-grid :column-num="2" square clickable :border="false">
             <van-grid-item>
                 <ball-beat/>
             </van-grid-item>
