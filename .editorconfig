@@ -1,0 +1,74 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = tab
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+trim_trailing_whitespace = true
+
+[*.css]
+indent_style = space
+
+[*.feature]
+indent_size = 2
+indent_style = space
+
+[*.haml]
+indent_size = 2
+indent_style = space
+
+[*.less]
+indent_size = 2
+indent_style = space
+
+[*.sass]
+indent_size = 2
+indent_style = space
+
+[*.scss]
+indent_size = 2
+indent_style = space
+
+[*.styl]
+indent_size = 2
+indent_style = space
+
+[{*.ant,*.fxml,*.jhm,*.jnlp,*.jrxml,*.rng,*.tld,*.wsdl,*.xml,*.xsd,*.xsl,*.xslt,*.xul}]
+indent_style = space
+
+[{*.ats,*.ts}]
+indent_style = space
+
+[{*.bash,*.sh,*.zsh}]
+indent_size = 2
+indent_style = space
+tab_width = 2
+
+[{*.cjs,*.js}]
+indent_size = 2
+indent_style = space
+max_line_length = 100
+tab_width = 2
+
+[{*.cjsx,*.coffee}]
+indent_size = 2
+indent_style = space
+tab_width = 2
+
+[{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.prettierrc,.stylelintrc,bowerrc,jest.config}]
+indent_size = 2
+indent_style = space
+
+[{*.htm,*.html,*.ng,*.sht,*.shtm,*.shtml}]
+indent_style = space
+max_line_length = 999
+
+[{*.jade,*.pug}]
+indent_style = space
+
+[{*.yaml,*.yml}]
+indent_size = 2

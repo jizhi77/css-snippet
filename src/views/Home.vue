@@ -6,29 +6,43 @@
                 <div class="cp-spinner cp-skeleton"></div>
             </h1>
             <h2 class="demo-home__desc">常见场景的 CSS 代码片段</h2>
-            <div class="demo-home-nav">
-                <div class="demo-home-nav__title">加载状态</div>
-                <div class="demo-home-nav__group">
-                    <router-link to="/loader" class="demo-home-nav__block">
-                        Loaders
-                        <svg viewBox="0 0 1024 1024" class="demo-home-nav__icon">
-                            <path fill="#B6C3D2"
-                                  d="M601.1 556.5L333.8 289.3c-24.5-24.5-24.5-64.6 0-89.1s64.6-24.5 89.1 0l267.3 267.3c24.5 24.5 24.5 64.6 0 89.1-24.5 24.4-64.6 24.4-89.1-.1z"></path>
-                            <path fill="#B6C3D2"
-                                  d="M690.2 556.5L422.9 823.8c-24.5 24.5-64.6 24.5-89.1 0s-24.5-64.6 0-89.1l267.3-267.3c24.5-24.5 64.6-24.5 89.1 0 24.5 24.6 24.5 64.6 0 89.1z"></path>
-                        </svg>
-                    </router-link>
-                    <router-link to="/spinner" class="demo-home-nav__block">
-                        Spinner
-                        <svg viewBox="0 0 1024 1024" class="demo-home-nav__icon">
-                            <path fill="#B6C3D2"
-                                  d="M601.1 556.5L333.8 289.3c-24.5-24.5-24.5-64.6 0-89.1s64.6-24.5 89.1 0l267.3 267.3c24.5 24.5 24.5 64.6 0 89.1-24.5 24.4-64.6 24.4-89.1-.1z"></path>
-                            <path fill="#B6C3D2"
-                                  d="M690.2 556.5L422.9 823.8c-24.5 24.5-64.6 24.5-89.1 0s-24.5-64.6 0-89.1l267.3-267.3c24.5-24.5 64.6-24.5 89.1 0 24.5 24.6 24.5 64.6 0 89.1z"></path>
-                        </svg>
-                    </router-link>
-                </div>
-            </div>
+			<div class="demo-home-nav">
+				<div class="demo-home-nav__title">加载状态</div>
+				<div class="demo-home-nav__group">
+					<router-link to="/loader" class="demo-home-nav__block">
+						Loaders
+						<svg viewBox="0 0 1024 1024" class="demo-home-nav__icon">
+							<path fill="#B6C3D2"
+								  d="M601.1 556.5L333.8 289.3c-24.5-24.5-24.5-64.6 0-89.1s64.6-24.5 89.1 0l267.3 267.3c24.5 24.5 24.5 64.6 0 89.1-24.5 24.4-64.6 24.4-89.1-.1z"></path>
+							<path fill="#B6C3D2"
+								  d="M690.2 556.5L422.9 823.8c-24.5 24.5-64.6 24.5-89.1 0s-24.5-64.6 0-89.1l267.3-267.3c24.5-24.5 64.6-24.5 89.1 0 24.5 24.6 24.5 64.6 0 89.1z"></path>
+						</svg>
+					</router-link>
+				</div>
+			</div>
+			<div class="demo-home-nav">
+				<div class="demo-home-nav__title">常见操作</div>
+				<div class="demo-home-nav__group">
+					<router-link to="/common" class="demo-home-nav__block">
+						Common
+						<svg viewBox="0 0 1024 1024" class="demo-home-nav__icon">
+							<path fill="#B6C3D2"
+								  d="M601.1 556.5L333.8 289.3c-24.5-24.5-24.5-64.6 0-89.1s64.6-24.5 89.1 0l267.3 267.3c24.5 24.5 24.5 64.6 0 89.1-24.5 24.4-64.6 24.4-89.1-.1z"></path>
+							<path fill="#B6C3D2"
+								  d="M690.2 556.5L422.9 823.8c-24.5 24.5-64.6 24.5-89.1 0s-24.5-64.6 0-89.1l267.3-267.3c24.5-24.5 64.6-24.5 89.1 0 24.5 24.6 24.5 64.6 0 89.1z"></path>
+						</svg>
+					</router-link>
+					<router-link to="/common/shape" class="demo-home-nav__block">
+						Shape
+						<svg viewBox="0 0 1024 1024" class="demo-home-nav__icon">
+							<path fill="#B6C3D2"
+								  d="M601.1 556.5L333.8 289.3c-24.5-24.5-24.5-64.6 0-89.1s64.6-24.5 89.1 0l267.3 267.3c24.5 24.5 24.5 64.6 0 89.1-24.5 24.4-64.6 24.4-89.1-.1z"></path>
+							<path fill="#B6C3D2"
+								  d="M690.2 556.5L422.9 823.8c-24.5 24.5-64.6 24.5-89.1 0s-24.5-64.6 0-89.1l267.3-267.3c24.5-24.5 64.6-24.5 89.1 0 24.5 24.6 24.5 64.6 0 89.1z"></path>
+						</svg>
+					</router-link>
+				</div>
+			</div>
         </div>
     </div>
 </template>

@@ -5,11 +5,15 @@
 ## 内容
 
 1. 加载状态
-    - Loader
-    - Spinner
+    1. Loader
+    2. Spinner
+
 2. common
-    - heart
-    
+    1. heart
+
+3. 常见写法
+    1. 居中
+
 
 ## TODO
 
